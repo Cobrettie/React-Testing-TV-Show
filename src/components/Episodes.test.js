@@ -1,11 +1,7 @@
-// Main testing imports
-// import React, render, component to be tested
-
 import React from 'react';
 import '@testing-library/jest-dom';
 import { render, fireEvent, wait } from '@testing-library/react';
 import Episodes from './Episodes';
-// import '@testing-library/jest-dom/extend-expect';
 
 
 const episodes = [

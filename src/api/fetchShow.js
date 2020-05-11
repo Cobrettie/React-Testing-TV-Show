@@ -8,6 +8,6 @@ export const fetchShow = () => {
     .then(res => {
       console.log('fetchShow get request response', res)
       return res
-    });
+    })
     .catch(err => console.log(err))
 }
