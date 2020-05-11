@@ -9,4 +9,5 @@ export const fetchShow = () => {
       console.log('fetchShow get request response', res)
       return res
     });
+    .catch(err => console.log(err))
 }
